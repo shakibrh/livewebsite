@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(image/well-furnished-office-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    color: white;
+}
+header{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo span{
+    font-size: 40px;
+}
+.fas{
+    font-size: 40px;
+    margin: 0 10px;
+    color: yellow;
+}
+b{
+    color: rgb(255, 237, 71);
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.menu ul li:nth-child(1){
+    color: yellow;
+}
+.menu ul li:hover{
+    text-decoration:  underline;
+    transition: 0.5s;
+    color: yellow;
+}
+.about-container{
+    width: 743px;
+    height: 300px;
+    margin: auto;
+}
+.text{
+ 
+    padding-top: 50px;
+}
+p{
+    width: 500px;
+    text-align:  justify;
+    font-size: 15px;
+    line-height: 2;
+}
+h1{
+    font-size: 35px;
+}
+.btn1{
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color:transparent ;
+    color: white;
+    border: 0; 
+    margin: 30px 15px  0 15px;
+    border-radius: 10px;
+    border: 1px solid yellow;  
+}
+.btn1:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    transform: translate(0, -5px);
+    box-shadow: 0 5px black;
+}
+.down-section{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+.div{
+    padding: 10px 40.5px;
+    background-color: red;
+    display: inline;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    cursor: pointer;
+}
+.div:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.menu-bar{
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.menu-box{
+    padding: 20px 17.9px;
+    text-align: center;
+    border: 1px solid black;
+}
+.menu-box:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: translate(0, -2px );
+}
+    
+ 
